@@ -13,7 +13,7 @@ import java.util.Date;
 @Table(name = "tb_emprestimo")
 public class Emprestimo {
 
-    @Id @GeneratedValue(strategy = GenerationType.AUTO.SEQUENCE)
+    @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
     @OneToOne(cascade = CascadeType.ALL)

@@ -42,7 +42,7 @@ public class LivroService {
             if(editora != null && !editora.isBlank()){
                 livro.setEditora(editora);
             }
-            if(!dataPublicacao.equals("")){
+            if(!dataPublicacao.equals("") || dataPublicacao!= null){
                 livro.setDataPublicacao(dataPublicacao);
             }
             if(categoria != null && !categoria.isBlank()){

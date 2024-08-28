@@ -12,7 +12,7 @@ import lombok.*;
 @Table(name = "tb_pendencia")
 public class Pendencia {
 
-    @Id @GeneratedValue(strategy = GenerationType.AUTO.SEQUENCE)
+    @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
     private Double valor_pendencia;

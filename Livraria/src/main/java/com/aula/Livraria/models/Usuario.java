@@ -13,7 +13,7 @@ import lombok.*;
 @Table(name = "tb_usuario")
 public class Usuario {
 
-    @Id @GeneratedValue(strategy = GenerationType.AUTO.SEQUENCE)
+    @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
     private String nome;

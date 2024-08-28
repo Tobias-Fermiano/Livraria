@@ -13,7 +13,7 @@ import java.sql.Date;
 @Table(name = "tb_livro")
 public class Livro {
 
-    @Id @GeneratedValue(strategy = GenerationType.AUTO.SEQUENCE)
+    @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
     private Integer qtdDisponivel;
@@ -22,5 +22,4 @@ public class Livro {
     private String editora;
     private Date dataPublicacao;
     private String categoria;
-
 }
